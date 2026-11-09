@@ -1,14 +1,16 @@
-# Python Basics
+# Employee Testing Project
 
-This repository contains my Python learning and practice programs.
+## Project Description
+This is a simple Python project to validate employee details.
 
-## Topics
-- Variables
-- Input and Output
-- Data Types
-- If/Else
-- Loops
-- Functions
+## Technologies Used
+- Python
+- GitHub
 
-## About Me
-I am a BCA graduate learning Python and software testing.
+## Features
+- Employee Name Validation
+- Employee ID Validation
+- Salary Validation
+
+## Author
+Maruthi
