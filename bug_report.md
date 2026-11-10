@@ -4,7 +4,7 @@
 BUG-001
 
 ## Bug Title
-Employee ID validation accepts empty input
+Empty Employee ID Validation Failure
 
 ## Module
 Employee Validation
@@ -15,19 +15,20 @@ Medium
 ## Priority
 High
 
-## Steps to Reproduce
-1. Run the Python program.
-2. Enter employee name.
-3. Leave Employee ID empty.
-4. Enter salary.
-5. Check the output.
+## Test Input
+Employee ID: Empty
 
 ## Expected Result
-The program should display:
-"Invalid employee ID"
+Invalid employee ID
 
 ## Actual Result
-The program accepts the empty Employee ID.
+Employee ID is accepted as valid.
 
 ## Status
 Open
+
+## Root Cause
+Incorrect validation condition.
+
+## Fix
+Change employee_id == "0" to employee_id == "".
