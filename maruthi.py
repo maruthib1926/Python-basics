@@ -11,7 +11,7 @@ if name == "":
 else:
     print("Employee name is valid")
 
-if employee_id == "":
+if employee_id == "0":
     print("Invalid employee ID")
 else:
     print("Employee ID is valid")
