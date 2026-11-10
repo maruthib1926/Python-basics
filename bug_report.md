@@ -25,7 +25,7 @@ Invalid employee ID
 Employee ID is accepted as valid.
 
 ## Status
-Open
+**closed**
 
 ## Root Cause
 Incorrect validation condition.
